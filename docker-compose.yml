@@ -25,7 +25,6 @@ services:
       - MONGO_INITDB_DATABASE=owlim_v1
       - MONGO_OPENIM_USERNAME=owlIM
       - MONGO_OPENIM_PASSWORD=owlIM123
-      - MONGO_VERSION=1
     restart: always
     networks:
       - openim
